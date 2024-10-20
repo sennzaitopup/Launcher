@@ -1,0 +1,371 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_IOERRORDLG DIALOGEX 0, 0, 319, 200
+STYLE DS_SETFONT | WS_POPUP
+EXSTYLE WS_EX_APPWINDOW
+FONT 9, "돋움", 400, 0, 0x0
+BEGIN
+    CONTROL         "창닫기",ID_EXIT_BTN,"Button",BS_OWNERDRAW | WS_TABSTOP,223,180,57,13
+    EDITTEXT        IDC_ERROR_EDIT,7,18,305,156,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+    CONTROL         "해결방법",ID_SOLUTION,"Button",BS_OWNERDRAW | WS_TABSTOP,49,180,57,13
+    CONTROL         "X",ID_XBTN,"Button",BS_OWNERDRAW | WS_TABSTOP,275,8,24,11
+END
+
+IDD_SETUP_FOLDER_DLG DIALOGEX 0, 0, 355, 86
+STYLE DS_SETFONT | WS_POPUP
+EXSTYLE WS_EX_APPWINDOW
+FONT 9, "돋움", 400, 0, 0x81
+BEGIN
+    CONTROL         "설치",IDC_SETUP,"Button",BS_OWNERDRAW | WS_TABSTOP,116,68,50,14
+    CONTROL         "취소",IDC_EXIT,"Button",BS_OWNERDRAW | WS_TABSTOP,185,68,50,14
+    CONTROL         "폴더변경",IDC_SETUP_FOLDER_BUTTON,"Button",BS_OWNERDRAW | WS_TABSTOP,285,25,50,14
+    CONTROL         "X",IDC_X,"Button",BS_OWNERDRAW | WS_TABSTOP,320,7,28,14
+    EDITTEXT        IDC_EDIT,63,28,147,18,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+END
+
+IDD_LOGINDLG DIALOGEX 0, 0, 202, 129
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "X",IDC_LOGIN_X,"Button",BS_OWNERDRAW | WS_TABSTOP,180,6,14,14
+    EDITTEXT        IDC_EDIT_ID,25,61,94,14,ES_MULTILINE | ES_AUTOHSCROLL | NOT WS_BORDER
+    EDITTEXT        IDC_EDIT_PW,25,82,94,14,ES_MULTILINE | ES_AUTOHSCROLL | NOT WS_BORDER
+    CONTROL         "회원가입",IDC_ENTRY,"Button",BS_OWNERDRAW | WS_TABSTOP,7,108,50,14
+    CONTROL         "찾기",IDC_FIND,"Button",BS_OWNERDRAW | WS_TABSTOP,66,108,50,14
+    CONTROL         "Login",IDC_LOGIN,"Button",BS_OWNERDRAW | WS_TABSTOP,144,81,50,14
+    CONTROL         "ID SAVE",IDC_IDSAVE,"Button",BS_OWNERDRAW | WS_TABSTOP,144,61,50,14
+    CONTROL         "비밀번호찾기",IDC_LOGIN_FIND_PW,"Button",BS_OWNERDRAW | WS_TABSTOP,125,108,50,14
+    LISTBOX         IDC_LIST1,24,39,88,16,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Channel",IDC_CHANNEL,"Button",BS_OWNERDRAW | WS_TABSTOP,7,6,50,14
+    CONTROL         "NAVER",IDC_NAVER,"Button",BS_OWNERDRAW | WS_TABSTOP,58,6,40,14
+    CONTROL         "MGAME",IDC_MGAME,"Button",BS_OWNERDRAW | WS_TABSTOP,98,6,40,14
+    CONTROL         "LOSTSAGA",IDC_LOSTSAGA,"Button",BS_OWNERDRAW | WS_TABSTOP,139,6,40,14
+    CONTROL         "NEXON",IDC_NEXON,"Button",BS_OWNERDRAW | WS_TABSTOP,58,22,40,14
+    CONTROL         "TOONI",IDC_TOONI,"Button",BS_OWNERDRAW | WS_TABSTOP,98,22,40,14
+    CONTROL         "DAUM",IDC_DAUM,"Button",BS_OWNERDRAW | WS_TABSTOP,139,23,40,14
+END
+
+IDD_LOCAL_DLG DIALOGEX 0, 0, 166, 110
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "OK",IDOK,"Button",BS_OWNERDRAW | WS_TABSTOP,64,88,38,14
+    CONTROL         "English",IDC_BUTTON1,"Button",BS_OWNERDRAW | WS_TABSTOP,64,7,38,14
+    CONTROL         "Germany",IDC_BUTTON2,"Button",BS_OWNERDRAW | WS_TABSTOP,64,23,38,14
+    CONTROL         "Italian",IDC_BUTTON4,"Button",BS_OWNERDRAW | WS_TABSTOP,64,70,38,14
+    CONTROL         "SelLanguage",IDC_BUTTON7,"Button",BS_OWNERDRAW | NOT WS_VISIBLE | WS_TABSTOP,111,7,48,14
+    LISTBOX         IDC_LIST1,7,25,54,63,LBS_NOINTEGRALHEIGHT | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_IOERRORDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 312
+        TOPMARGIN, 8
+        BOTTOMMARGIN, 193
+    END
+
+    IDD_SETUP_FOLDER_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 348
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 79
+    END
+
+    IDD_LOGINDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 194
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 122
+    END
+
+    IDD_LOCAL_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 159
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 102
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#include ""res\\LSWebBroker.rc2""  // Microsoft Visual C++에서 편집되지 않은 리소스\r\n"
+    "#include ""afxres.rc""         // 표준 구성 요소\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "파일(&F)"
+    BEGIN
+        MENUITEM "끝내기(&X)",                     ID_APP_EXIT
+    END
+    POPUP "편집(&E)"
+    BEGIN
+        MENUITEM "실행 취소\tCtrl+Z(&U)",           ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "잘라내기\tCtrl+X(&T)",            ID_EDIT_CUT
+        MENUITEM "복사\tCtrl+C(&C)",              ID_EDIT_COPY
+        MENUITEM "붙여넣기\tCtrl+V(&P)",            ID_EDIT_PASTE
+    END
+    POPUP "도움말(&H)"
+    BEGIN
+        MENUITEM "LSWebBroker 정보(&A)...",       ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,1,12
+ PRODUCTVERSION 1,0,1,12
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041203b5"
+        BEGIN
+            VALUE "CompanyName", "IO Entertainment Co., Ltd."
+            VALUE "FileDescription", "LSWebBroker.exe"
+            VALUE "FileVersion", "1.0.1.12"
+            VALUE "InternalName", "LSWebBroker.exe"
+            VALUE "LegalCopyright", "IO Entertainment Co., Ltd.  All rights reserved."
+            VALUE "OriginalFilename", "LSWebBroker.exe"
+            VALUE "ProductName", "LostSaga Web Broker"
+            VALUE "ProductVersion", "1.0.1.12"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 949
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_SHIP                ICON                    "res\\normal.ico"
+IDI_REDICON             ICON                    "res\\LSICON.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+IDR_RT_MANIFEST1        RT_MANIFEST             "res\\LSWebBroker.exe.manifest"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BACK                BITMAP                  "res\\back.bmp"
+IDB_CHANGEBTN           BITMAP                  "res\\change_btn.bmp"
+IDB_EXITBTN             BITMAP                  "res\\exit_btn.bmp"
+IDB_SETUPBTN            BITMAP                  "res\\setup_btn.bmp"
+IDB_XBTN                BITMAP                  "res\\x_btn.bmp"
+IDB_ERROR_BACK          BITMAP                  "res\\back_error.bmp"
+IDB_SOLUTIONBTN         BITMAP                  "res\\solution_btn.bmp"
+IDB_BACK_TW             BITMAP                  "res\\back_tw.bmp"
+IDB_CHANGEBTN_TW        BITMAP                  "res\\change_btn_tw.bmp"
+IDB_ERROR_BACK_TW       BITMAP                  "res\\back_error_tw.bmp"
+IDB_EXITBTN_TW          BITMAP                  "res\\exit_btn_tw.bmp"
+IDB_SETUPBTN_TW         BITMAP                  "res\\setup_btn_tw.bmp"
+IDB_SOLUTIONBTN_TW      BITMAP                  "res\\solution_btn_tw.bmp"
+IDB_LOGIN_BACK          BITMAP                  "res\\login_back.bmp"
+IDB_LOGIN_CANCELBTN     BITMAP                  "res\\login_cancel_btn.bmp"
+IDB_LOGIN_ENTERBTN      BITMAP                  "res\\login_enter_btn.bmp"
+IDB_LOGIN_ENTRYBTN      BITMAP                  "res\\login_entry_btn.bmp"
+IDB_LOGIN_FINDBTN       BITMAP                  "res\\login_find_btn.bmp"
+IDB_LOGIN_IDSAVEBTN     BITMAP                  "res\\login_idsave_btn.bmp"
+IDB_LOGIN_EDIT_NORMAL   BITMAP                  "res\\login_edit_normal.bmp"
+IDB_LOGIN_EDIT_PW_NORMAL BITMAP                  "res\\login_edit_pw_normal.bmp"
+IDB_LOGIN_EDIT_PW_SELECT BITMAP                  "res\\login_edit_pw_select.bmp"
+IDB_LOGIN_EDIT_SELECT   BITMAP                  "res\\login_edit_select.bmp"
+IDB_LOGIN_FINDPW_BTN    BITMAP                  "res\\login_findpw_btn.bmp"
+IDB_ERROR_BACK_ID       BITMAP                  "res\\back_error_id.bmp"
+IDB_BACK_ID             BITMAP                  "res\\back_id.bmp"
+IDB_CHANGEBTN_ID        BITMAP                  "res\\change_btn_id.bmp"
+IDB_EXITBTN_ID          BITMAP                  "res\\exit_btn_id.bmp"
+IDB_SETUPBTN_ID         BITMAP                  "res\\setup_btn_id.bmp"
+IDB_SOLUTIONBTN_ID      BITMAP                  "res\\solution_btn_id.bmp"
+IDB_ERROR_BACK_JP       BITMAP                  "res\\back_error_jp.bmp"
+IDB_BACK_JP             BITMAP                  "res\\back_jp.bmp"
+IDB_CHANGEBTN_JP        BITMAP                  "res\\change_btn_jp.bmp"
+IDB_EXITBTN_JP          BITMAP                  "res\\exit_btn_jp.bmp"
+IDB_SETUPBTN_JP         BITMAP                  "res\\setup_btn_jp.bmp"
+IDB_SOLUTIONBTN_JP      BITMAP                  "res\\solution_btn_jp.bmp"
+IDB_ERROR_BACK_TH       BITMAP                  "res\\back_error_th.bmp"
+IDB_BACK_TH             BITMAP                  "res\\back_th.bmp"
+IDB_CHANGEBTN_TH        BITMAP                  "res\\change_btn_th.bmp"
+IDB_EXITBTN_TH          BITMAP                  "res\\exit_btn_th.bmp"
+IDB_SETUPBTN_TH         BITMAP                  "res\\setup_btn_th.bmp"
+IDB_SOLUTIONBTN_TH      BITMAP                  "res\\solution_btn_th.bmp"
+IDB_LOGIN_CHANNEL       BITMAP                  "res\\login_channel_btn.bmp"
+IDB_CHANNEL_DAUM        BITMAP                  "res\\login_channel_daum.bmp"
+IDB_CHANNEL_MAIN        BITMAP                  "res\\login_channel_main.bmp"
+IDB_CHANNEL_MGAME       BITMAP                  "res\\login_channel_mgame.bmp"
+IDB_CHANNEL_NAVER       BITMAP                  "res\\login_channel_naver.bmp"
+IDB_CHANNEL_NEXON       BITMAP                  "res\\login_channel_nexon.bmp"
+IDB_CHANNEL_TOONI       BITMAP                  "res\\login_channel_tooniland.bmp"
+IDB_BACK_UI             BITMAP                  "res\\login_back_ui.bmp"
+IDB_BACK_UI_01          BITMAP                  "res\\login_back_ui_01.BMP"
+IDB_ENTER_UI            BITMAP                  "res\\login_enter_ui_btn.bmp"
+IDB_FIND_IDPW           BITMAP                  "res\\login_entry_btn_ui.bmp"
+IDB_BACK_US             BITMAP                  "res\\back_th1.bmp"
+IDB_LOCAL_ITALIAN       BITMAP                  "res\\local italia.bmp"
+IDB_LOCAL_ENGLISH       BITMAP                  "res\\local_English.bmp"
+IDB_LOCAL_FRANCE        BITMAP                  "res\\local_France.bmp"
+IDB_LOCAL_GERMANY       BITMAP                  "res\\local_Germany.bmp"
+IDB_LOCAL_POLISH        BITMAP                  "res\\local_Poland.bmp"
+IDB_LOCAL_TURKEY        BITMAP                  "res\\local_Turkey.bmp"
+IDB_BACK_LOCAL          BITMAP                  "res\\back_local.bmp"
+IDB_BACK_LOCAL_SMALL    BITMAP                  "res\\back_local_s.bmp"
+IDB_LOCAL_START         BITMAP                  "res\\local_start.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// txt
+//
+
+IDR_TXT_ERROR           txt                     "Local\\text.txt"
+IDR_TXT_ERROR_EU        txt                     "Local\\text_eu.txt"
+IDR_TXT_ERROR_ID        txt                     "Local\\text_id.txt"
+IDR_TXT_ERROR_NA        txt                     "Local\\text_na.txt"
+IDR_TXT_ERROR_SA        txt                     "Local\\text_sa.txt"
+IDR_TXT_ERROR_TH        txt                     "Local\\text_th.txt"
+IDR_TXT_ERROR_TW        txt                     "Local\\text_tw.txt"
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE 18, 1
+#pragma code_page(949)
+#include "res\LSWebBroker.rc2"  // Microsoft Visual C++에서 편집되지 않은 리소스
+#include "afxres.rc"         // 표준 구성 요소
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

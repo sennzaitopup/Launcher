@@ -1,0 +1,31 @@
+|EXE_CMainFrame::OnCreate_1|\r\n\r\n王牌對決已經執行中。\r\n\r\n     請稍待片刻。\r\n\r\n\r\n\r\n  一段時間後如果遊戲沒有執行\r\n\r\n   則請重新開機後再執行。|
+|EXE_CMainFrame::OnCreate_2|王牌對決正在更新中。 請稍待片刻。|
+|EXE_CMainFrame::ParseCmdAndStart_1|認證出現錯誤。\r\n請稍後重新使用。 (%1)\r\n(問題編號:104)|
+|EXE_CMainFrame::ParseCmdAndStart_2|初始資料錯誤。\r\n請稍後重新使用。 (%1/%2)\r\n(問題編號:106)|
+|EXE_CMainFrame::SetupAndStart_1|設定的資料匣名稱錯誤。\r\n請稍後重新使用。(%1)\r\n(問題編號:105)|
+|EXE_CSetupAndStart::SetupAndStartGame_1|已重新認證。\r\n請稍後重新使用。(%1)\r\n(問題編號:101)|
+|EXE_CSetupAndStart::SetupAndStartGame_2|自動更新失敗。\r\n請稍後重新使用。(%1:%2)\r\n(問題編號:102)|
+|EXE_CSetupAndStart::SetupAndStartGame_3|更新檔案安裝失敗。\r\n請稍後重新使用。(%1:%2)\r\n(問題編號:103)|
+|EXE_CSetupAndStart::SetupAndStartGame_4|與伺服器連結失敗。\r\n請稍後重新使用。(%1)\r\n(問題編號:107)|
+|EXE_ioErrorDlg::ShowErrorDlg_2|--- 系統規格 ---\r\n%1\r\n\r\n--- 異常資訊 ---\r\n%2|
+|EXE_SetupFolderDlg::OnBnClickedChangeFolder_1|請選擇要安裝王牌對決的資料匣。|
+|EXE_SetupFolderDlg::OnBnClickedChangeFolder_2|安裝路徑名稱是空白的。\r\n\r\n     請重新設定。|
+|EXE_SetupFolderDlg::OnBnClickedChangeFolder_3|安裝路徑無法超過100字元。\r\n\r\n              請重新設定。|
+|EXE_SetupFolderDlg::OnBnClickedChangeFolder_4|無法創立資料匣的路徑。\r\n\r\n       請重新設定。|
+|EXE_SetupFolderDlg::OnBnClickedSetup_1|王牌對決安裝準備中。 請稍待片刻。|
+|EXE_ioLocalKorea::GetLoginResultPostData_1|受限制的IP (-1)。|
+|EXE_ioLocalKorea::GetLoginResultPostData_2|帳號或是密碼認證失敗 (-2)。|
+|EXE_ioLocalKorea::GetLoginResultPostData_3|帳號或是密碼錯誤 (-3)。|
+|EXE_ioLocalKorea::GetLoginResultPostData_4|Garena會員 (-4)。|
+|EXE_ioLocalKorea::GetLoginResultPostData_5|要同意個人資訊提供 (-5)。|
+|EXE_ioLocalKorea::GetLoginResultPostData_6|限制上線時間的玩家 (0點 ~ 6點) (-6)。|
+|EXE_ioLocalKorea::GetLoginResultPostData_7|選擇性限制上線時間的玩家 (-7)。|
+|EXE_ioLocalKorea::GetLoginResultPostData_8|伺服器維護中 (-8)。|
+|EXE_ioLocalKorea::GetLoginResultPostData_9|封鎖狀態無法連線 (-9)。|
+|EXE_ioLocalKorea::GetLoginResultPostData_10|與遊戲伺服器連結失敗 (-10)。|
+|EXE_ioLocalKorea::GetLoginResultPostData_11|伺服器滿載 (-11)。|
+|EXE_ioLocalKorea::GetLoginResultPostData_12|內部異常 (-12)|
+|EXE_ioLocalKorea::GetLoginResultPostData_13|內部異常 (-13)|
+|EXE_ioLocalKorea::GetLoginResultPostData_14|沒有玩家資訊 (-14)。|
+|EXE_ioLocalKorea::GetLoginResultPostData_15|沒有被制訂的地區類型 (-15)。|
+|EXE_ioLocalKorea::GetLoginResultPostData_16|帳號或是密碼太長請重新輸入。|

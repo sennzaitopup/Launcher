@@ -1,0 +1,15 @@
+|EXE_CMainFrame::OnCreate_1|\r\n\r\nLostSaga sedang berjalan.\r\n\r\n     Silahkan menunggu sebentar.\r\n\r\n\r\n\r\n  Jika Game tidak berjalan dalam waktu lama\r\n\r\n   Silahkan coba lagi setelah reboot.|
+|EXE_CMainFrame::OnCreate_2|LostSaga sedang Update.Silahkan menunggu.|
+|EXE_CMainFrame::ParseCmdAndStart_1|Data tidak valid.\r\nSilahkan coba beberapa saat lagi.(%1:%2)\r\n(Error Code:104)|
+|EXE_CMainFrame::ParseCmdAndStart_2|Data Start tidak valid..\r\nSilahkan coba beberapa saat lagi.(%1/%2)\r\n(Error Code:106)|
+|EXE_CMainFrame::SetupAndStart_1|Nama Folder yang baru diset salah.\r\nSilahkan coba beberapa saat lagi.(%1)\r\n(Error Code:105)|
+|EXE_CSetupAndStart::SetupAndStartGame_1|Data telah berubah.\r\nSilahkan coba beberapa saat lagi.(%1)\r\n(Error Code:101)|
+|EXE_CSetupAndStart::SetupAndStartGame_2|Gagal Auto Update.\r\nSilahkan coba beberapa saat lagi.(%1:%2)\r\n(Error Code:102)|
+|EXE_CSetupAndStart::SetupAndStartGame_3|Gagal info Patch file.\r\nSilahkan coba beberapa saat lagi.(%1:%2)\r\n(Error Code:103)|
+|EXE_CSetupAndStart::SetupAndStartGame_4|Tidak ada Server atau Server sedang full.\r\nSilahkan coba beberapa saat lagi.(%1)\r\n(Error Code:107)|
+|EXE_ioErrorDlg::ShowErrorDlg_2|--- Spesifikasi System ---\r\n%1\r\n\r\n--- Info Error ---\r\n%2|
+|EXE_SetupFolderDlg::OnBnClickedChangeFolder_1|Silahkan memilih folder yang akan install Lost Saga.|
+|EXE_SetupFolderDlg::OnBnClickedChangeFolder_2|Folder yang dipilih kosong.\r\n\r\n     Silahkan set lagi.|
+|EXE_SetupFolderDlg::OnBnClickedChangeFolder_3|Nama folder tidak dapat melebihi 100 huruf.\r\n\r\n              Silahkan set lagi.|
+|EXE_SetupFolderDlg::OnBnClickedChangeFolder_4|Tidak dapat membuat Folder.\r\n\r\n       Silahkan set lagi.|
+|EXE_SetupFolderDlg::OnBnClickedSetup_1|Sedang mempersiapkan untuk menginstal Lost Saga. Silahkan menunggu sebentar.|

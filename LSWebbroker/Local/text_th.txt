@@ -1,0 +1,15 @@
+|EXE_CMainFrame::OnCreate_1|\r\n\r\nกำลัง Run เกม Lostsaga\r\n\r\n     กรุณารอสักครู่\r\n\r\n\r\n\r\n  หากใช้เวลา Run เกมเป็นเวลานาน\r\n\r\n   กรุณาปิดแล้วทดลองใหม่|
+|EXE_CMainFrame::OnCreate_2|กำลัง Update Lostsaga กรุณารอสักครู่|
+|EXE_CMainFrame::OnCreate_3|ค่า factor ไม่ถูกต้อง\r\nกรุณาใช้งานใหม่ในภายหลัง(%1)\r\n(Error Num:104)|		
+|EXE_CMainFrame::OnCreate_4|ค่าDataเริ่มต้นไม่ถูกต้อง\r\nกรุณาใช้งานใหม่ในภายหลัง(%1/%2)\r\n(Error Num:106)|	
+|EXE_CMainFrame::SetupAndStart_1|ชื่อ Folder ที่ตั้งใหม่ ไม่ถูกต้อง\r\nกรุณาใช้งานใหม่ในภายหลัง(%1)\r\n(Error Num:105)|	
+|EXE_CSetupAndStart::SetupAndStartGame_1|ค่า factor ถูกเปลี่ยนแปลงแล้ว\r\nกรุณาใช้งานใหม่ในภายหลัง(%1)\r\n(Error Num:101)|	
+|EXE_CSetupAndStart::SetupAndStartGame_2|การ Install auto update ล้มเหลว\r\nกรุณาใช้งานใหม่ในภายหลัง(%1:%2)\r\n(Error Num:102)|		
+|EXE_CSetupAndStart::SetupAndStartGame_3|การ Install file data patch ล้มเหลว\r\nกรุณาใช้งานใหม่ในภายหลัง(%1:%2)\r\n(Error Num:103)|		
+|EXE_CSetupAndStart::SetupAndStartGame_4|ไม่มี server ที่กำลัง Run อยู่ หรือ server busy อยู่\r\nกรุณาใช้งานใหม่ในภายหลัง(%1)\r\n(Error Num:107)|
+|EXE_ioErrorDlg::ShowErrorDlg_2|--- system specification ---\r\n%1\r\n\r\n--- ข้อมูล error ---\r\n%2|
+|EXE_SetupFolderDlg::OnBnClickedChangeFolder_1|กรุณาเลือก Folder ที่จะลง lostsaga|
+|EXE_SetupFolderDlg::OnBnClickedChangeFolder_2|ชื่อ install path ว่างอยู่\r\n\r\n    กรุณา Run ใหม่อีกครั้ง|
+|EXE_SetupFolderDlg::OnBnClickedChangeFolder_3|install path นั้น ไม่สามารถเกิน 100 ตัวอักษรได้\r\n\r\n             กรุณา Run ใหม่อีกครั้ง|
+|EXE_SetupFolderDlg::OnBnClickedChangeFolder_4|เป็น path ที่ไม่สามารถสร้าง folder ได้\r\n\r\n      กรุณา Run ใหม่อีกครั้ง|
+|EXE_SetupFolderDlg::OnBnClickedSetup_1|กำลังเตรียมการ Install lostsaga  กรุณารอสักครู่|

@@ -1,0 +1,15 @@
+|EXE_CMainFrame::OnCreate_1|\r\n\r\nLost Saga is launching.\r\n\r\n     Please wait a moment.\r\n\r\n\r\n\r\n  Reboot and try again if \r\n\r\n   the game fails to launch.|
+|EXE_CMainFrame::OnCreate_2|Lost Saga is updating.  Please wait a moment. |
+|EXE_CMainFrame::ParseCmdAndStart_1|The parameter is incorrect.\r\nPlease attempt to try again later.(%1)\r\n(Error Code:104)|
+|EXE_CMainFrame::ParseCmdAndStart_2|First Data Value is incorrect.\r\nPlease attempt to try again later.(%1:%2)\r\n(Error Code:106)|
+|EXE_CMainFrame::SetupAndStart_1|Folder Name does not match.\r\nPlease attempt to try again later.(%1)\r\n(Error Code:105)|
+|EXE_CSetupAndStart::SetupAndStartGame_1|The parameter has changed.\r\nPlease attempt to try again later.(%1)\r\n(Error Code:101)|
+|EXE_CSetupAndStart::SetupAndStartGame_2|Failed to install Auto Update.\r\nPlease attempt to try again later.(%1:%2)\r\n(Error Code:102)|
+|EXE_CSetupAndStart::SetupAndStartGame_3|Failed to install Patch Info File.\r\nPlease attempt to try again later.(%1:%2)\r\n(Error Code:103)|
+|EXE_CSetupAndStart::SetupAndStartGame_4|No server available or the servers are currently busy.\r\nPlease attempt to try again later.(%1)\r\n(Error Code:107)|
+|EXE_ioErrorDlg::ShowErrorDlg_2|--- System Requirement ---\r\n%1\r\n\r\n--- Error ---\r\n%2|
+|EXE_SetupFolderDlg::OnBnClickedChangeFolder_1|Please select the folder for Lost Saga Installation.|
+|EXE_SetupFolderDlg::OnBnClickedChangeFolder_2|Installation Path is empty.\r\n\r\n     Please select again.|
+|EXE_SetupFolderDlg::OnBnClickedChangeFolder_3|Installation Path cannot exceed 100 letter and numbers combined.\r\n\r\n              Please select again.|
+|EXE_SetupFolderDlg::OnBnClickedChangeFolder_4|Cannot make a folder on this path.\r\n\r\n       Please select again.|
+|EXE_SetupFolderDlg::OnBnClickedSetup_1|Preparing to install Lost Saga. Please wait a moment.|

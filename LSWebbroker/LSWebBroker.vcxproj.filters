@@ -1,0 +1,567 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="StringManager">
+      <UniqueIdentifier>{a6f48ebb-1463-4936-8695-444ce391cd2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Local">
+      <UniqueIdentifier>{ce63d758-8e0d-4635-8c7b-e0033d77045a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="skin">
+      <UniqueIdentifier>{ac9cdf96-acd2-42a8-b4da-2a2feeeaa531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{634f7cf6-0482-482b-8704-da4c39bac387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Netmarble">
+      <UniqueIdentifier>{7aaaaf2f-4306-4402-8908-7de960f017fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\cJson">
+      <UniqueIdentifier>{ce107adb-7513-497d-a275-c4ca0a7921bc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ioErrorDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ioLoginDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LSWebBroker.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SetupAndStart.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SetupFolderDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TrayIcon.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="StringManager\ioHashString.cpp">
+      <Filter>StringManager</Filter>
+    </ClCompile>
+    <ClCompile Include="StringManager\ioSingleton.cpp">
+      <Filter>StringManager</Filter>
+    </ClCompile>
+    <ClCompile Include="StringManager\ioStringManager.cpp">
+      <Filter>StringManager</Filter>
+    </ClCompile>
+    <ClCompile Include="StringManager\Safesprintf.cpp">
+      <Filter>StringManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Local\ioLocalChina.cpp">
+      <Filter>Local</Filter>
+    </ClCompile>
+    <ClCompile Include="Local\ioLocalChinaLanguage.cpp">
+      <Filter>Local</Filter>
+    </ClCompile>
+    <ClCompile Include="Local\ioLocalGermany.cpp">
+      <Filter>Local</Filter>
+    </ClCompile>
+    <ClCompile Include="Local\ioLocalIndonesia.cpp">
+      <Filter>Local</Filter>
+    </ClCompile>
+    <ClCompile Include="Local\ioLocalJapan.cpp">
+      <Filter>Local</Filter>
+    </ClCompile>
+    <ClCompile Include="Local\ioLocalJapanLanguage.cpp">
+      <Filter>Local</Filter>
+    </ClCompile>
+    <ClCompile Include="Local\ioLocalKorea.cpp">
+      <Filter>Local</Filter>
+    </ClCompile>
+    <ClCompile Include="Local\ioLocalManager.cpp">
+      <Filter>Local</Filter>
+    </ClCompile>
+    <ClCompile Include="Local\ioLocalParent.cpp">
+      <Filter>Local</Filter>
+    </ClCompile>
+    <ClCompile Include="Local\ioLocalTaiwan.cpp">
+      <Filter>Local</Filter>
+    </ClCompile>
+    <ClCompile Include="Local\ioLocalTaiwanLanguage.cpp">
+      <Filter>Local</Filter>
+    </ClCompile>
+    <ClCompile Include="Local\ioLocalThailand.cpp">
+      <Filter>Local</Filter>
+    </ClCompile>
+    <ClCompile Include="Local\ioLocalThailandLanguage.cpp">
+      <Filter>Local</Filter>
+    </ClCompile>
+    <ClCompile Include="Local\ioLocalUS.cpp">
+      <Filter>Local</Filter>
+    </ClCompile>
+    <ClCompile Include="skin\CDialogSK.cpp">
+      <Filter>skin</Filter>
+    </ClCompile>
+    <ClCompile Include="skin\HoverButton.cpp">
+      <Filter>skin</Filter>
+    </ClCompile>
+    <ClCompile Include="skin\ioProgressBar.cpp">
+      <Filter>skin</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\cpu_info.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Crc32Static.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\HelpFunc.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\HttpApp.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\HttpManager.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\ioINILoaderAU.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\SystemInfo.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\TimeOutSocket.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Local\ioLocalEU.cpp">
+      <Filter>Local</Filter>
+    </ClCompile>
+    <ClCompile Include="Local\ioLocalLatin.cpp">
+      <Filter>Local</Filter>
+    </ClCompile>
+    <ClCompile Include="ioLocalDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Local\ioLocalSingapore.cpp">
+      <Filter>Local</Filter>
+    </ClCompile>
+    <ClCompile Include="cJson\cJSON.c">
+      <Filter>Util\cJson</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\ioEncrypted.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\seedenc.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\seed.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ioErrorDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ioLoginDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LSWebBroker.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SetupAndStart.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SetupFolderDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TrayIcon.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="StringManager\ioHashString.h">
+      <Filter>StringManager</Filter>
+    </ClInclude>
+    <ClInclude Include="StringManager\ioSingleton.h">
+      <Filter>StringManager</Filter>
+    </ClInclude>
+    <ClInclude Include="StringManager\ioStringManager.h">
+      <Filter>StringManager</Filter>
+    </ClInclude>
+    <ClInclude Include="StringManager\Safesprintf.h">
+      <Filter>StringManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Local\ioLocalChina.h">
+      <Filter>Local</Filter>
+    </ClInclude>
+    <ClInclude Include="Local\ioLocalChinaLanguage.h">
+      <Filter>Local</Filter>
+    </ClInclude>
+    <ClInclude Include="Local\ioLocalGermany.h">
+      <Filter>Local</Filter>
+    </ClInclude>
+    <ClInclude Include="Local\ioLocalIndonesia.h">
+      <Filter>Local</Filter>
+    </ClInclude>
+    <ClInclude Include="Local\ioLocalJapan.h">
+      <Filter>Local</Filter>
+    </ClInclude>
+    <ClInclude Include="Local\ioLocalJapanLanguage.h">
+      <Filter>Local</Filter>
+    </ClInclude>
+    <ClInclude Include="Local\ioLocalKorea.h">
+      <Filter>Local</Filter>
+    </ClInclude>
+    <ClInclude Include="Local\ioLocalManager.h">
+      <Filter>Local</Filter>
+    </ClInclude>
+    <ClInclude Include="Local\ioLocalParent.h">
+      <Filter>Local</Filter>
+    </ClInclude>
+    <ClInclude Include="Local\ioLocalTaiwan.h">
+      <Filter>Local</Filter>
+    </ClInclude>
+    <ClInclude Include="Local\ioLocalTaiwanLanguage.h">
+      <Filter>Local</Filter>
+    </ClInclude>
+    <ClInclude Include="Local\ioLocalThailand.h">
+      <Filter>Local</Filter>
+    </ClInclude>
+    <ClInclude Include="Local\ioLocalThailandLanguage.h">
+      <Filter>Local</Filter>
+    </ClInclude>
+    <ClInclude Include="Local\ioLocalUS.h">
+      <Filter>Local</Filter>
+    </ClInclude>
+    <ClInclude Include="skin\CDialogSK.h">
+      <Filter>skin</Filter>
+    </ClInclude>
+    <ClInclude Include="skin\HoverButton.h">
+      <Filter>skin</Filter>
+    </ClInclude>
+    <ClInclude Include="skin\ioProgressBar.h">
+      <Filter>skin</Filter>
+    </ClInclude>
+    <ClInclude Include="skin\MemDC.h">
+      <Filter>skin</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Common.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\cpu_info.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Crc32Static.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\HelpFunc.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\HttpApp.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\HttpManager.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ioINILoaderAU.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\SystemInfo.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\TimeOutSocket.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Netmarble\NMCrypt.h">
+      <Filter>Netmarble</Filter>
+    </ClInclude>
+    <ClInclude Include="Local\ioLocalEU.h">
+      <Filter>Local</Filter>
+    </ClInclude>
+    <ClInclude Include="Local\ioLocalLatin.h">
+      <Filter>Local</Filter>
+    </ClInclude>
+    <ClInclude Include="ioLocalDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Local\ioLocalSingapore.h">
+      <Filter>Local</Filter>
+    </ClInclude>
+    <ClInclude Include="cJson\cJSON.h">
+      <Filter>Util\cJson</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ioEncrypted.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\seed.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\back.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\back_error.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\back_error_id.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\back_error_jp.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\back_error_th.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\back_error_tw.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\back_id.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\back_jp.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\back_th.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\back_tw.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\change_btn.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\change_btn_id.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\change_btn_jp.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\change_btn_th.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\change_btn_tw.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\exit_btn.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\exit_btn_id.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\exit_btn_jp.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\exit_btn_th.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\exit_btn_tw.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\login_back.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\login_cancel_btn.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\login_edit_normal.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\login_edit_pw_normal.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\login_edit_pw_select.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\login_edit_select.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\login_enter_btn.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\login_entry_btn.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\login_find_btn.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\login_findpw_btn.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\login_idsave_btn.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\LSICON.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\LSWebBroker.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\setup_btn.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\setup_btn_id.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\setup_btn_jp.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\setup_btn_th.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\setup_btn_tw.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\solution_btn.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\solution_btn_id.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\solution_btn_jp.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\solution_btn_th.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\solution_btn_tw.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\text_back.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\x_btn.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+    <None Include="res\login_channel_btn.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\bitmap4.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\login_channel_daum.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\login_channel_main.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\login_channel_mgame.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\login_channel_naver.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\login_channel_nexon.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\login_channel_tooniland.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\login_back_ui.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\login_enter_ui_btn.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\login_entry_btn_ui.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\login_edit_pw_ui_normal.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\login_edit_pw_ui_select.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\back_th1.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\normal.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="res\back_local.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\English.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\FRANCE.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\GERMANY.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\ITALIA.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\POLAND.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\local italia.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\local_English.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\local_France.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\local_Germany.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\local_poland.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\local_start.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="Local\text.txt">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="Local\text_tw.txt">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="Local\text_eu.txt">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="Local\text_id.txt">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="Local\text_na.txt">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="Local\text_sa.txt">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="Local\text_th.txt">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LSWebBroker.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="res\LSWebBroker.exe.manifest" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LSWebBroker", "LSWebBroker.vcxproj", "{8F4CD26E-B891-42C8-B33A-DCFC03F6EFB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Rel_EU|Win32 = Rel_EU|Win32
+		Rel_ID|Win32 = Rel_ID|Win32
+		Rel_NA|Win32 = Rel_NA|Win32
+		Rel_SA|Win32 = Rel_SA|Win32
+		Rel_SEA|Win32 = Rel_SEA|Win32
+		Rel_TH|Win32 = Rel_TH|Win32
+		Rel_TW|Win32 = Rel_TW|Win32
+		Release|Win32 = Release|Win32
+		Template|Win32 = Template|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F4CD26E-B891-42C8-B33A-DCFC03F6EFB6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8F4CD26E-B891-42C8-B33A-DCFC03F6EFB6}.Debug|Win32.Build.0 = Debug|Win32
+		{8F4CD26E-B891-42C8-B33A-DCFC03F6EFB6}.Rel_EU|Win32.ActiveCfg = Rel_EU|Win32
+		{8F4CD26E-B891-42C8-B33A-DCFC03F6EFB6}.Rel_EU|Win32.Build.0 = Rel_EU|Win32
+		{8F4CD26E-B891-42C8-B33A-DCFC03F6EFB6}.Rel_ID|Win32.ActiveCfg = Rel_ID|Win32
+		{8F4CD26E-B891-42C8-B33A-DCFC03F6EFB6}.Rel_ID|Win32.Build.0 = Rel_ID|Win32
+		{8F4CD26E-B891-42C8-B33A-DCFC03F6EFB6}.Rel_NA|Win32.ActiveCfg = Rel_NA|Win32
+		{8F4CD26E-B891-42C8-B33A-DCFC03F6EFB6}.Rel_NA|Win32.Build.0 = Rel_NA|Win32
+		{8F4CD26E-B891-42C8-B33A-DCFC03F6EFB6}.Rel_SA|Win32.ActiveCfg = Rel_SA|Win32
+		{8F4CD26E-B891-42C8-B33A-DCFC03F6EFB6}.Rel_SA|Win32.Build.0 = Rel_SA|Win32
+		{8F4CD26E-B891-42C8-B33A-DCFC03F6EFB6}.Rel_SEA|Win32.ActiveCfg = Rel_SEA|Win32
+		{8F4CD26E-B891-42C8-B33A-DCFC03F6EFB6}.Rel_SEA|Win32.Build.0 = Rel_SEA|Win32
+		{8F4CD26E-B891-42C8-B33A-DCFC03F6EFB6}.Rel_TH|Win32.ActiveCfg = Rel_TH|Win32
+		{8F4CD26E-B891-42C8-B33A-DCFC03F6EFB6}.Rel_TH|Win32.Build.0 = Rel_TH|Win32
+		{8F4CD26E-B891-42C8-B33A-DCFC03F6EFB6}.Rel_TW|Win32.ActiveCfg = Rel_TW|Win32
+		{8F4CD26E-B891-42C8-B33A-DCFC03F6EFB6}.Rel_TW|Win32.Build.0 = Rel_TW|Win32
+		{8F4CD26E-B891-42C8-B33A-DCFC03F6EFB6}.Release|Win32.ActiveCfg = Release|Win32
+		{8F4CD26E-B891-42C8-B33A-DCFC03F6EFB6}.Release|Win32.Build.0 = Release|Win32
+		{8F4CD26E-B891-42C8-B33A-DCFC03F6EFB6}.Template|Win32.ActiveCfg = Template|Win32
+		{8F4CD26E-B891-42C8-B33A-DCFC03F6EFB6}.Template|Win32.Build.0 = Template|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
