@@ -135,14 +135,14 @@ void ioLoginDlg::OnBnClickedLogin()
 
 	if( m_sLoginURL.IsEmpty() )
 	{
-		pMainFrame->ShowErrorDlg( "Error LoginURL", 108 );
+		pMainFrame->ShowErrorDlg( "Errors : Login URL", 108 );
 		return;
 	}
 
 	char szError[2048]="";
 	if (m_bIDEditBlank || m_bPWEditBlank)
 	{
-		pMainFrame->ShowErrorDlg("Username or Password cannot be empty!", 108);
+		pMainFrame->ShowErrorDlg("Username and Password needed !", 108);
 		return;
 	}
 
@@ -150,20 +150,20 @@ void ioLoginDlg::OnBnClickedLogin()
 	m_IDEdit.GetWindowText(sID);
 	if (strcmp(sID.GetString(), "ID") == 0)
 	{
-		pMainFrame->ShowErrorDlg("Username is required!", 108);
+		pMainFrame->ShowErrorDlg("Input ID", 108);
 		return;
 	}
 	CString sPW;
 	m_PWEdit.GetWindowText(sPW);
 	if (strcmp(sPW.GetString(), "PW") == 0)
 	{
-		pMainFrame->ShowErrorDlg("Password is required!", 108);
+		pMainFrame->ShowErrorDlg("Input Password", 108);
 		return;
 	}
 
 	if (strcmp(sID.GetString(), sPW.GetString()) == 0)
 	{
-		pMainFrame->ShowErrorDlg("Username and Password Can't be same!", 108);
+		pMainFrame->ShowErrorDlg("Username and Password cant be same!", 108);
 		return;
 	}
 
